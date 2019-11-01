@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>TODO App</title>
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
@@ -11,8 +14,11 @@
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
-      <button class="button center" onClick="newTodo()">New TODO</button>
-      <ul id="todo-list" class="todo-list"></ul>
+      
+      <p class="center">
+        <span id="form-app"></span>
+      </p>
+      <ul id="todo-list" class="todo-list center"></ul>
     </div>
     <script src="./script.js"></script>
   </body>
